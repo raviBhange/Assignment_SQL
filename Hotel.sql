@@ -12,7 +12,7 @@ price DECIMAL(10,2)
 );
 create table members(
 customer_id VARCHAR(45),
-join_data DATE
+join_date DATE
 );
 
 INSERT INTO members (customer_id, join_date)
